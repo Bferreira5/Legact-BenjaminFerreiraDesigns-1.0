@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main_container{
+	width:400px;
+	border-width:1px;
+	border-style:solid;
+	margin-top:20px;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-left:auto;
+	background-color:#ffffff;
+	padding:20px;
+	}
+
+p{
+	font-family: 'Droid Serif', serif;
+	font-size:13px;
+	line-height:20px;
+	text-align:left;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:25px;
+	padding:0px;
+	text-indent:-25px;
+	}
+
+.titles{
+	font-style:italic;
+	}
+
+h1{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:30px;
+	font-weight: 700;
+	line-height:40px;
+	text-align:left;
+	letter-spacing: 3pt;
+	margin:0px;
+	padding:0px;
+	}
+
+h2{
+	font-family: 'Droid Sans', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:20px;
+	text-transform:uppercase;
+	text-align:left;
+	margin-top:10px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding:0px;
+	letter-spacing:1px;
+	}

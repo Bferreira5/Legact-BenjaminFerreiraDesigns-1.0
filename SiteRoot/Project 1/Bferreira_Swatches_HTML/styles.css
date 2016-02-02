@@ -1,0 +1,83 @@
+.header {
+	clear: left;
+	display: block;
+	overflow: hidden;
+	margin: 0 0 0 30px;
+	border: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+.header h1 {
+	display: block;
+	margin: 50px 0 0 0; /* top right bottom left */
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.swatch {
+	float: left;
+	display: block;
+	margin: 30px;
+	border: 1px solid #000000;
+	padding: 0;
+	width: 110px;
+	height: auto;
+	box-shadow: 1px 1px 5px #000000;
+}
+
+.color {
+	overflow: hidden;
+	display: block;
+	margin: 5px;
+	border: 0;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+	background: #333333;
+	
+	color: #ffffff;
+	text-align: center;
+	line-height: 100px;
+	text-indent: -999px;
+	
+}
+
+.hex-cccccc { background:#cccccc;}
+.hex-bbbbbb { background:#bbbbbb;}
+.hex-333333 { background:#333333;}
+.hex-ff9933 { background:#ff9933;}
+.hex-66ffcc { background:#66ffcc;}
+.hex-ff0066 { background:#ff0066;}
+.hex-ffffcc { background:#ffffcc;}
+.hex-0066ff { background:#0066ff;}
+.hex-336600 { background:#336600;}
+.hex-7d9d5c { background:#7d9d5c;}
+.hex-b1c49d { background:#b1c49d;}
+.hex-3366ff { background:#3366ff;}
+.hex-003399 { background:#003399;}
+.hex-3333ff { background:#3333ff;}
+.hex-666699 { background:#666699;}
+.hex-cc0000 { background:#cc0000;}
+.hex-66ccff { background:#66ccff;}
+.hex-00ccff { background:#00ccff:}
+
+.swatch:hover .color {
+	text-indent: 0;
+}
+
+.swatch:hover {
+	-webkit-transform: rotate(3deg);
+}
+
+.color-title {
+	display:block;
+	margin: 5px;
+	border: 0;
+	padding: 0;
+	width: 100px;
+	height: auto;
+	text-align: right;
+}

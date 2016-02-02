@@ -1,0 +1,537 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Honey Bunches of Oats</title>
+
+<style type="text/css">
+body {
+	background: gray;
+	font-family: Helvetica, Verdana, sans-serif;
+}
+
+div.article {
+	overflow: hidden;
+	display: block;
+	margin: auto;
+	width: 450px;
+	background: #fff;
+}
+
+div.header {
+	margin: .5em auto;
+	width: 95%;
+}
+
+div.header h1 {
+	margin: 0;
+}
+
+div.header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.wrap {
+	margin: 1em auto;
+	border: 1px solid #000;
+	width: 90%;
+}
+
+/*
+
+.nutrition
+
+*/
+
+table  {
+	margin: 10px auto;
+	width: 96%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+caption {
+	position: absolute;
+	text-indent: -9999px;
+}
+
+
+table.nutrition th,
+table.nutrition td {
+	padding: .25em 0;
+	text-align: left;
+}
+
+table.nutrition thead th {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.nutrition thead tr {
+	border-top: 10px solid #000;
+}
+
+table.nutrition tr {
+	border-top: 1px solid #000;
+}
+
+/*
+
+.nutrition-calories
+
+*/
+
+table.nutrition thead th:nth-child(2),
+table.nutrition thead th:nth-child(3) {
+	text-align: right;
+}
+
+table.nutrition tbody.nutrition-calories td {
+	text-align: right;
+}
+
+table.nutrition tbody.nutrition-calories th {
+	font-weight: bold;
+}
+
+table.nutrition tbody.nutrition-calories tr:nth-child(2) th {
+	padding-left: 1em;
+	font-weight: normal;
+}
+
+/*
+
+.daily-value
+
+*/
+
+tbody.daily-value tr:nth-child(1) {
+	border-top: 5px solid #000;
+}
+
+tbody.daily-value tr:nth-child(1) th {
+	text-align: right;
+}
+
+table.nutrition tbody.daily-value td {
+	text-align: right;
+}
+
+table.nutrition tbody.daily-value th {
+	font-weight: bold;
+}
+
+table.nutrition tbody.daily-value tr:nth-child(3) th,
+table.nutrition tbody.daily-value tr:nth-child(4) th,
+table.nutrition tbody.daily-value tr:nth-child(5) th,
+table.nutrition tbody.daily-value tr:nth-child(6) th,
+
+table.nutrition tbody.daily-value tr:nth-child(11) th,
+table.nutrition tbody.daily-value tr:nth-child(13) th,
+table.nutrition tbody.daily-value tr:nth-child(14) th {
+	padding-left: 1em;
+	font-weight: normal;
+}
+
+table.nutrition tbody.daily-value tr:nth-child(12) th {
+	padding-left: 2em;
+	font-weight: normal;
+}
+
+table.nutrition tbody.daily-value th span {
+	font-weight: normal;
+}
+
+
+/*
+
+.vitamins
+
+*/
+
+table.nutrition tbody.vitamins th {
+	font-weight: normal;
+}
+
+table.nutrition tbody.vitamins td {
+	text-align: right;
+}
+
+table.nutrition tbody.vitamins tr:nth-child(1) {
+	border-top: 15px solid #000;
+}
+
+table.nutrition tbody.vitamins tr {
+	border-bottom: 1px solid #000;
+}
+
+
+/*
+
+.calories
+
+*/
+
+table.calories {
+	font-size: small;
+	text-align: left;
+}
+
+table.calories thead {
+	border-bottom: 1px solid #000;
+}
+
+table.calories tbody tr:nth-child(2) th {
+	padding: 0 0 0 1em;
+}
+
+table.calories th {
+	font-weight: normal;
+}
+
+
+/*
+
+footnotes
+
+*/
+
+ol {
+	margin: 3%;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+ol li {
+	margin: 0 0 1em 0;
+	padding: 0 0 0 1em;
+	text-indent: -.65em;
+}
+
+ol li:nth-child(2) {
+	text-indent: -1em;
+}
+
+ol li:nth-child(1):before {
+	content: "* ";
+}
+
+ol li:nth-child(2):before {
+	content: "** ";
+}
+
+/*
+
+.ingredients
+
+*/
+
+div.ingredients {
+	margin: .5em auto;
+	width: 88%;
+	font-weight: bold;
+}
+
+div.ingredients .warning {
+	text-transform: uppercase;
+}
+
+div.ingredients p span {
+	font-weight: normal;
+}
+
+/*
+
+.footer
+
+*/
+
+div.footer {
+	margin: .5em auto;
+	width: 88%;
+}
+
+div.footer ul {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="article">
+<div class="wrap">
+<div class="header">
+	<h1>Nutrition Facts</h1>
+    <ul>
+    	<li>Servings Size 1 cup (49g)</li>
+        <li>Serving Per Container about 14</li>
+    </ul>
+    
+</div>
+
+<table class="nutrition" summary="This table summarizes nutritional information">
+	<caption>Nutritional Information</caption>
+    <thead>
+    	<tr>
+        	<th>Amount Per Serving</th>
+            <th>Honey Bunches of Oats</th>
+            <th>with &frac12; cup Fat Free Milk</th>
+        </tr>
+     </thead>
+     
+     <tbody class="nutrition-calories">
+     	<tr>
+        	<th>Calories</th>
+            <td>120</td>
+            <td>160</td>
+        </tr>
+        <tr>
+        	<th>Calories from Fat</th>
+            <td>15</td>
+            <td>15</td>
+        </tr>
+     </tbody>
+     
+     <tbody class="daily-value">
+     		<tr>
+            	<th colspan="3">% Daily Value**</th>
+            </tr>
+            <tr>
+            	<th>Total Fat <span>1.5g*</span></th>
+                <td>2%</td>
+                <td>2%</td>
+            </tr>
+      		<tr>
+            	<th>Saturated Fat 0g</th>
+                <td>0%</td>
+                <td>0%</td>
+            </tr>
+            <tr>
+            	<th colspan="3">Trans Fat 0g</th>
+           	</tr>
+            <tr>
+            	<th colspan="3">Polyunsaturated Fat 0g</th>
+            </tr>
+            <tr>
+            	<th colspan="3">Monounsaturated Fat 1g</th>
+            </tr>
+            <tr>
+            	<th>Cholesterol <span>0mg</span></th>
+                <td>0%</td>
+                <td>0%</td>
+            </tr>
+            <tr>
+            	<th>Sodium <span>140mg</span></th>
+                <td>6%</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+            	<th>Potassium <span>55mg</span></th>
+                <td>2%</td>
+                <td>7%</td>
+            </tr>
+            <tr>
+            	<th>Total Carbohydrate <span>25g</span></th>
+                <td>8%</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+            	<th>Dietary Fiber 2g</th>
+                <td>8%</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+            	<th colspan="3">Soluble Fiber Less than 1g</th>
+            </tr>
+            <tr>
+            	<th colspan="3">Sugars 6g</th>
+            </tr>
+            <tr>
+            	<th colspan="3">Other Carbohydrate 17g</th>
+            </tr>
+            <tr>
+            	<th colspan="3">Protein <span>2g</span></th>
+            </tr>
+        </tbody>
+        
+        <tbody class="vitamins">
+                <tr>
+                	<th>Vitamin A</th>
+                    <td>15%</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                	<th>Vitamin C</th>
+                    <td>0%</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                	<th>Calcium</th>
+                    <td>0%</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                	<th>Iron</th>
+                    <td>60%</td>
+                    <td>60%</td>
+                </tr>
+                <tr>
+                	<th>Vitamin D</th>
+                    <td>10%</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                	<th>Thiamin</th>
+                    <td>25%</td>
+                    <td>30%</td>
+                </tr>
+                <tr>
+                	<th>Riboflavin</th>
+                    <td>25%</td>
+                    <td>35%</td>
+                </tr>
+                <tr>
+                	<th>Niacin</th>
+                    <td>25%</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                	<th>Vitamin B<sub>6</sub></th>
+                    <td>25%</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                	<th>Vitamin B<sub>12</sub></th>
+                    <td>25%</td>
+                    <td>35%</td>
+                </tr>
+                <tr>
+                	<th>Folic Acid</th>
+                    <td>50%</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                	<th>Phosphorus</th>
+                    <td>4%</td>
+                    <td>4%</td>
+                </tr>
+                <tr>
+                	<th>Zinc</th>
+                    <td>2%</td>
+                    <td>6%</td>
+                </tr>
+                <tr>
+                	<th>Copper</th>
+                    <td>2%</td>
+                    <td>2%</td>
+                </tr>
+             </tbody>
+</table>
+
+<div class="footnote">
+	<ol>
+		<li><small>Amount in cereal. A serving of cereal plus skim mil provides 1.5g total fat, less than 5mg cholesterol, 220mg sodium, 320mg potassium, 28g total carbohydrate (15g sugars, 12g other carbohydrate), and 7g protein.</small></li>
+		<li><small>Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:</small></li>
+	</ol>
+</div>
+
+<table class="calories">
+	<caption>Calories</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Calories</th>
+			<th>2,000</th>
+			<th>2,500</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<th>Total Fat</th>
+			<td>Less than</td>
+			<td>65g</td>
+			<td>80g</td>
+		</tr>
+		<tr>
+			<th>Sat Fat</th>
+			<td>Less than</td>
+			<td>20g</td>
+			<td>25g</td>
+		</tr>
+	</tbody>
+	
+	<tbody>
+		<tr>
+			<th>Cholesterol</th>
+			<td>Less than</td>
+			<td>300mg</td>
+			<td>300mg</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<th>Sodium</th>
+			<td>Less than</td>
+			<td>2,400mg</td>
+			<td>2,400mg</td>
+		</tr>
+	<tbody>
+		<tr>
+			<th colspan="2">Potassium</th>
+			<td>3,500mg</td>
+			<td>3,500mg</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<th colspan="2">Total Carbohydrate</th>
+			<td>300g</td>
+			<td>375g</td>
+		</tr>
+		<tr>
+			<th colspan="2">Dietary Fiber</th>
+			<td>25g</td>
+			<td>30g</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="ingredients">
+	<p>Ingredients: Corn, Whole Grain Rolled Oats, Brown Sugar, Rice, High Oleic Vergetable Oil <span>(Canola or Sunflower Oil)</span>, Wheat Flour, Matled Barley Flour, Salt, Corn Syrup, Whey <span>(From Milk)</span>, Honey, Malted Corn and Barley Syrup, Caremel Color Natural and Artificial Flavor, Annatto Extract <span>(Color)<span>, BHT added to packaging material to preserve product freshness.</p>
+    
+    <p class="warning">Contains almond; may contain wheat ingredient.</p>
+</div 
+
+><div class="footer">
+	<ul>
+    	<li>Post Foods, LLC</li>
+        <li>Minneapolis, MC 55440 USA</li>
+    </ul>
+    
+<p>If you are not satisfied with the quality of this product, a prompt refund or adjustment of equal value will be made. Your comments and questions are welcome. Save or send your box to and&hellip;</p>
+
+		<ul>
+        	<li>Call: 1-800-431-POST (7:30 AM&ndash;5:30 PM, Weekdays)</li>
+            <li>www.GeneralMills.com</li>
+            <li>&copy; 2012 Post May be mfg. under U.S. Pa????</li>
+        </ul>
+        
+        
+        <p>Exchange: 1&fact12; Starch</p>
+	<p>Exchange calculations based on Choose Your Foods: Exchange Lists for Diabetes &copy; 2008 the American Dietetic Association, the American Diabetes Association</p>
+	<p>This package is sold by weight, not by volume. You can be assured of proper weight even though some settling of contents normally occurs during shipment and handling.</p>
+	<p>F 3495307624 SSG 3429701624</p>
+    
+</div>
+</div>
+        
+</body>
+</html>
