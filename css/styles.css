@@ -1,0 +1,405 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*common*/
+
+
+h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: normal;
+    font-style: normal;
+}
+
+a { cursor: pointer;
+	color: 000;
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*body*/
+
+body {
+	background: url(../Sprite/clean_textile.png) repeat;
+}
+
+/*container*/
+#container {
+	padding-top: 75px;
+	padding-left: 75px;
+	margin: 0 auto;
+	
+}
+
+
+/* header */
+# logo header {
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+#logo header a {
+	display: block;
+	font-family:Helvetica, sans-serif;
+	font-size: 165px;
+	color: rgba(7, 206, 250, 0.5);	
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1em;
+	letter-spacing: 10px;
+	text-shadow: 7px 0px 0 #AD0918;
+	text-align: left;
+}
+
+#logo header a:hover {
+	color:#CCC;
+}
+
+
+#logo {
+    float: right;
+	
+}
+
+/* subheader */
+
+/* nav */
+
+
+#small-nav {
+	float: left;
+	clear: left;
+	overflow: hidden;
+	padding-top: 35px;
+}
+
+#small-nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+#small-nav ul li a {
+    display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);	
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-shadow: 7px 0px 0 #AD0918;
+	text-align: left;
+}
+
+#small-nav ul li a:hover {
+	color: #999;
+}
+
+#large-nav {
+	float: left;
+	clear: left;
+	overflow: hidden;
+	padding-top: 35px;
+}
+
+#large-nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+#large-nav ul li a { 
+    display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);	
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-shadow: 7px 0px 0 #AD0918;
+	text-align: left;
+}
+
+#large-nav ul li a:hover { 
+	color: #999;
+
+}
+
+.column {
+	border-top:dashed;
+	border-color: #CCCCCC;
+	margin-top: 30px;
+}
+
+.column p {
+	color: #1F1F1F;
+	font-size: 16px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
+
+.column h2 {
+	margin-top: 20px;
+	margin-bottom:15px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 5px;
+	text-shadow: 3px 0px 0 #AD0918;
+	text-align: left;
+}
+
+
+
+.column h3 {
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 3px;
+	text-shadow: 2px 0px 0 #AD0918;
+	text-align: left;
+}
+
+.column h4 {
+	margin-top: 5px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #9D000D;
+	letter-spacing: 1px;
+	text-align: left;
+}
+.column h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #999;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.column ol li span {
+    color: #1f1f1f;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.aside li {
+	color: #9D000D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+
+div.picture {
+	margin-top: 20px;
+	
+}
+
+
+/*Twitter*/
+
+.tweet_list {
+	margin-top: 10px;
+	
+}
+
+.tweet_first {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.tweet_odd {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.tweet_even {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tweet_time a { 
+	color:#39F;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.tweet_text a { 
+	color:#39F;
+}
+
+.footer_nav {
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 3px;
+	text-shadow: 2px 0px 0 #AD0918;
+	text-align: left;
+}
+
+a:hover {
+	color:#CCC;
+}
+
+.sites article {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.web_link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 6px;
+	line-height: .8em;
+	text-shadow:	4px 0px 0 #AD0918;
+	text-align: left;
+}
+
+
+.first-credit {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.first-credit p {
+	margin-top: 10px;
+}
+
+.first-credit p a {
+	color: #666;
+}
+
+.first-credit p a:hover {
+	color: #0FF;
+}
+
+.last-credit {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.last-credit p {
+	margin-top: 10px;
+}
+
+
+
+.first-credit p a {
+	color: #666;
+}
+
+.first-credit p a:hover {
+	color: #0FF;
+}
+
+
+.skills h1 {
+	margin-top:	15px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	line-height: 1em;
+	letter-spacing: 6px;
+	text-shadow:	4px 0px 0 #AD0918;
+	text-align: left;	
+}
+
+
+.skills h2 {
+	margin-top: 20px;
+	margin-bottom:15px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 5px;
+	text-shadow: 3px 0px 0 #AD0918;
+	text-align: left;	
+}
+
+.skills h2 a {
+	margin-top: 20px;
+	margin-bottom:15px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 5px;
+	text-shadow: 3px 0px 0 #AD0918;
+	text-align: left;
+}
+
+.skills h2 a:hover {
+	color: grey;
+}
+.skills p {
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	margin-bottom: 20px;	
+}
+
+.sites h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 56px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(7, 206, 250, 0.5);
+	letter-spacing: 6px;
+	text-shadow:	4px 0px 0 #AD0918;
+	text-align: left;	
+}
+
+
+.thumbnail img {
+	background: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0;
+	border: 5px solid #DDD;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, .2);
+	position: relative;
+	overflow: hidden;
+
+}
+
+/*flickr styles*/
+div.flickr img {
+	float: left;
+	max-width: 40%;
+	margin: 2%;
+	padding: 6px;
+	border: 1px solid #666;
+	background: #FFF;
+}

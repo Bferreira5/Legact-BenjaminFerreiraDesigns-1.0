@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {background: #ccc;
+}
+
+body {
+	margin: 40px auto;
+	widows: 450px;
+	background: #fff;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.header {
+	overflow: hidden;
+	margin: 0 20px;
+}
+
+.header h1 {
+	text-shadow: 1px 0 1px #000. 2px 4px 5px red;
+}
+
+.my-form {
+	overflow: hidden;
+	margin: 20px 20px;
+}
+
+legend {
+	color: grey;
+}
+
+label {
+	display: block;
+	float: left;
+	padding: 20px 0;
+	width: 100px;
+	outline: 0;
+	border-radius: 100px;
+}
+
+input:focus {
+	outline: 1px solid Black;
+}
+
+#gender input {
+	display: inline;
+	float: none;
+	width: auto;
+	
+}
+
+#gender label {
+	display: inline;
+	float: none;
+}
+
+input[type=submit] {
+	width: auto;
+	background: White;
+	border-radius: 10px;
+	border: 0;
+	padding: 20px;
+}
+
+input[type=reset] {
+		
+}
+
+input[type=submit] {
+
+}

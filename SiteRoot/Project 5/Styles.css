@@ -1,0 +1,87 @@
+@import url("Nav.css");
+html, body {background:#fff;
+}
+
+
+#main { width:100%;
+		min-width:980px;
+		margin:0 0 10px;
+		clear:both;
+		color:#76797c;
+}
+
+
+
+
+
+
+
+
+
+
+
+#content,
+#headlines,
+#homefooter { width:980px; margin:0 auto; padding:0; }
+
+#billboard { display:block; margin:0 auto; padding:0; text-align:left; background:#fff; }
+
+#billboard h1 { margin-bottom:0; line-height:1em; }
+#billboard h1 img { display:block; margin:0 auto; }
+
+a.block { display: block; cursor: pointer; }
+
+#billboard #counter-noscript { position:relative; z-index:50; width:978px; height:609px; margin:0; color:#000; font-size:16px; }
+
+#billboard #counter-container {
+            width:978px; height: 609px; margin:0 auto 24px;
+            border: 1px solid #d6d6d6;
+            background: rgb(255,255,255);
+            background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(235,235,235,1)));
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 );
+        }
+
+        #billboard #counter-container h1 { margin:0 auto 72px; padding-top:84px; }
+        #billboard #counter-container h2 { margin:72px auto 0; }
+        #billboard #counter-container h1 img,
+        #billboard #counter-container h2 img { display:block; margin:0 auto; }
+		
+article,aside,footer,header,hgroup,nav,section,figure,figcaption { display: block; }
+
+.promos ul { clear:both; width:980px; margin:0; padding-bottom:30px; _position:relative; _z-index:1; zoom:1; }
+.promos ul:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+.promos ul li {
+	display:inline;
+	float:left;
+	width:237px;
+	height:155px;
+	margin-left:10px;
+	-webkit-box-shadow:rgba(0,0,0,.4) 0 1px 3px;
+	-moz-box-shadow:rgba(0,0,0,.4) 0 1px 3px;
+	box-shadow:rgba(0,0,0,.4) 0 1px 3px;
+	box-shadow:rgba(0,0,0,.4) 0 1px 6px \0/IE9;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+    _margin-left:expression(this.previousSibling==null?'0':'10px');
+}
+.promos ul li:first-child { margin-left:0; }
+.promos ul li a { display:block; background:#f5f5f5; border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2;
+    background:-webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#eeeeee));
+    background:-webkit-linear-gradient(top, #fafafa, #eeeeee);
+    background:-moz-linear-gradient(top, #fafafa, #eeeeee);
+    -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;
+}
+.promos ul li a:nth-child(1n) { border-color:#fff; }
+.promos ul li a:hover { background:#fdfdfd;
+    background:-webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#fafafa));
+    background:-webkit-linear-gradient(top, #fdfdfd, #fafafa);
+    background:-moz-linear-gradient(top, #fdfdfd, #fafafa);
+}
+.promos ul li a img { display:block; border:2px solid #fff;
+    behavior:url(/v/home/h/scripts/promo_iepngfix.htc); /* Custom IE6 Fix for homepage promos, correctly calculates widths */
+    -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
+}

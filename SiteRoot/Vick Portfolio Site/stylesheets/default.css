@@ -1,0 +1,583 @@
+
+
+::-moz-selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+	outline: none;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+	background: #CCC;
+
+}
+
+a img {
+	border: 0;
+}
+
+html {
+	font-size: 16px;
+	line-height: 17px;
+	height: 100%;
+}
+
+body {
+  	font-family: "futura-pt";
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	color: rgba(0,0,0,0.9);
+	background-color: #999;
+	letter-spacing: 150%;
+	/*text-shadow: 1px 1px 4px #000;*/
+}
+
+ul li  {
+	
+	margin-top:15px;
+
+}
+
+
+ul li a {
+	
+	margin-top:15px;
+	padding: 5px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+body.black {
+	color: rgba(150,0,0,0.9);
+	text-shadow: 0px 0px 0px #000;
+}
+
+body.black a {
+	color: rgba(0,0,0,0.9);
+}
+
+p {
+	padding: 0 0 11px;
+	letter-spacing: 150%;
+	
+}
+
+
+.black .linesH {
+	background: url(assets/lines-top-black.png) repeat-x left top;
+}
+
+.linesV {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(assets/lines-vertical.png) repeat-x left top;
+	left: 25px;
+	top: 0;
+	z-index: 3;
+}
+
+.black .linesV {
+	background: url(assets/lines-vertical-black.png) repeat-x left top;
+}
+
+.welcomeTop {
+	position: absolute;
+	left: 36px;
+	top: 30px;
+	width: 291px;
+	line-height: 16px;
+	color: white;
+	padding: 5px;
+	background-color:rgba(0,0,0,0.4);
+}
+
+
+#logo {
+	position: absolute;
+	left: 36px;
+	top: 98px;
+	height:100px;
+	width:100px;
+	background: url(assets/vic_logo1.png) no-repeat left top;
+	display: block;
+}
+
+.black #logo {
+	background: url(assets/logo-black.png) no-repeat left top;
+}
+
+.leftCol {
+	position: absolute;
+	left: 36px;
+	top: 191px;
+	width: 160px;
+}
+
+.leftCol div {
+	display: none;
+	position: relative;
+}
+
+.leftCol div.cardinal {
+	display: block;
+}
+
+.leftCol div .credits {
+	display: none;
+	position: fixed;
+	bottom: 81px;
+	left: 36px;
+	width: 291px;
+}
+
+.leftCol div .credits p {
+	margin: 0 !important;
+	
+}
+
+.leftCol p {
+	margin: 0 0 22px;
+	background-color:rgba(0,0,0,0.4);
+	color:#FFF;
+	padding: 5px;
+}
+
+.black .leftCol p {
+	background: url(assets/bg-line-black.png) no-repeat left bottom;
+}
+
+.projects {
+	list-style: none;
+	margin: 0 0 22px;
+	padding: 0 0 11px;
+	background: url(assets/bg-line-white.png) no-repeat left bottom;
+}
+
+.projects li.active a {
+	text-decoration: underline;
+}
+
+/*.tooBig {
+	letter-spacing: -0.5px;
+}
+
+body:nth-of-type(1) .tooBig{letter-spacing: -1px;}*/
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 13px;
+	bottom: 31px;
+	left: 20px;
+}
+
+#footer p {
+	padding: 0;
+}
+
+.linesH, .welcomeTop, #logo, .leftCol, .projects, #footer {
+	z-index: 4;
+}
+
+.copyright {
+	float: left;
+	margin: 0 0 0 16px;
+	background-color:rgba(0,0,0,0.4);
+	color:#FFF;
+}
+
+.projectDtl {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.projectDtl.active {
+	z-index: 2;
+	display: block;
+}
+
+#cardinal {
+	display: block;
+}
+
+.cardinal01 {
+	background: url(assets/Cardinals-05.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-05.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-05.jpg', sizingMethod='scale')";
+}
+
+.cardinal02 {
+	background: url(assets/Cardinals-06.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-06.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-06.jpg', sizingMethod='scale')";
+}
+
+.cardinal03 {
+	background: url(assets/Cardinals-07.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-07.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-07.jpg', sizingMethod='scale')";
+}
+
+.cardinal04 {
+	background: url(assets/Cardinals-08.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-08.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Cardinals-08.jpg', sizingMethod='scale')";
+}
+
+
+.meier01 {
+	background: url(assets/Meier-05.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-05.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-05.jpg', sizingMethod='scale')";
+}
+
+.meier02 {
+	background: url(assets/Meier-06.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-06.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-06.jpg', sizingMethod='scale')";
+}
+
+.meier03 {
+	background: url(assets/Meier-07.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-07.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-07.jpg', sizingMethod='scale')";
+}
+
+.meier04 {
+	background: url(assets/Meier-08.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-08.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/Meier-08.jpg', sizingMethod='scale')";
+}
+
+
+
+.mosaic01 {
+	background: url(assets/mosaic-05.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-05.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-05.jpg', sizingMethod='scale')";
+}
+
+.mosaic02 {
+	background: url(assets/mosaic-06.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-06.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-06.jpg', sizingMethod='scale')";
+}
+
+.mosaic03 {
+	background: url(assets/mosaic-07.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-07.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-07.jpg', sizingMethod='scale')";
+}
+
+.mosaic04 {
+	background: url(assets/mosaic-08.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-08.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/mosaic-08.jpg', sizingMethod='scale')";
+}
+
+
+.moveo01 {
+	background: url(assets/moveo-05.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-05.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-05.jpg', sizingMethod='scale')";
+}
+
+.moveo02 {
+	background: url(assets/moveo-06.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-06.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-06.jpg', sizingMethod='scale')";
+}
+
+.moveo03 {
+	background: url(assets/moveo-07.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-07.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-07.jpg', sizingMethod='scale')";
+}
+
+.moveo04 {
+	background: url(assets/moveo-08.jpg) no-repeat center center fixed;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-08.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='stylesheets/assets/moveo-08.jpg', sizingMethod='scale')";
+}
+
+
+
+
+
+
+
+.xofy{
+	
+
+
+}
+
+
+/* Scrollable */
+
+.scrollable {
+	left: 0;
+	top: 0;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+ 
+.scrollable .items {
+	width: 20000em;
+	position: absolute;
+}
+
+.projectDtl .items div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1920px;
+	height: 1080px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.items div {
+	display: block;
+	z-index: 1;
+}
+
+.items div.visible {
+	z-index: 2;
+	display: block;
+}
+
+.browse {
+	position: relative;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.browse:hover {
+	text-decoration: underline;
+	background: #CCC;
+}
+
+#about,
+#contact {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	line-height: 16px;
+	letter-spacing: -0.25px;
+	background: url(assets/vic_logo2.jpg) no-repeat;
+}
+
+#about p,
+#contact p {
+	color: rgba(255,255,255,0.6);
+	margin: 0 0 5px;
+}
+
+#about h6 {
+	font-weight: normal;
+	padding: 0 0 5px;
+	font-size: 12px;
+}
+
+#about p.withBg,
+#contact p.withBg {
+		
+		margin: 0 0 20px;
+}
+
+#contact p a {
+	color: rgba(255,255,255,0.9) !important;
+}
+
+.firstCol {
+	float: left;
+	width: 291px;
+	margin: 30px 0 0 36px;
+}
+
+.secCol {
+	float: left;
+	width: 291px;
+	margin: 30px 0 0 21px;
+}
+
+.thirdCol {
+	float: left;
+	width: 135px;
+	margin: 30px 0 0 21px;
+}
+
+.thirdCol ul {
+	list-style: none;
+	line-height: 26px;
+}
+
+.thirdCol ul a {
+	text-decoration: underline;
+	color: rgba(255,255,255,0.6);
+}
+
+.thirdCol ul a:hover {
+	text-decoration: none;
+}
+
+.closeOver{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	display: block;
+	right: 30px;
+	top: 30px;
+	background-color:#FFF;
+	
+	}
+
+.closeOver {
+	
+	font-size: 20px;
+	font-weight:900;
+	padding-top:10px;
+	text-align: center;
+	color:#000;
+	
+
+}
+.share {
+	position: absolute;
+	right: 6px;
+	bottom: 0;
+	z-index: 999;
+}
+
+.share a {
+	float: left;
+	width: 15px;
+	height: 13px;
+	margin: 0 0 0 10px;
+	display: block;
+}
+
+a.fb {
+	background: url(assets/icon-fb.png) no-repeat left top;
+}
+
+a.be {
+	background: url(assets/icon-be.png) no-repeat left top;
+}
+
+a.mail {
+	background: url(assets/icon-mail.png) no-repeat left top;
+}
+
+.share a:hover {
+	background-position: left bottom;
+}
+
+body.black .share a {
+	background-position: left bottom;
+}
+
+body.black .share a:hover {
+	background-position: left top;
+}
+
+
+/* Preloader */
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  text-align: center;
+  z-index: 9999;
+  display: block;
+  color: #000;
+}
+
+.overlayContent {
+  width: 200px;
+  height: 150px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -75px 0 0 -100px;
+}
+
+.overlayContent img {
+  margin: 0 0 20px;
+}
+
+.loader-container {
+  background-color: #6b7789;
+  width: 200px;
+  height: 5px;
+  margin: 0 0 10px;
+}
+
+.loader {
+  height: 5px;
+  width: 0%;
+  background: #a3dce7;
+  -webkit-transition: width ease-in-out 100ms;
+  -moz-transition: width ease-in-out 100ms;
+  -o-transition: width ease-in-out 100ms;
+  -ms-transition: width ease-in-out 100ms;
+  transition: width ease-in-out 100ms;
+}
+
+.loadPercent {
+  text-align: left;
+  font-size: 0.85em;
+}
+
+.imgForLoad {
+  position: absolute;
+  left: -15000px;
+  top: -15000px;
+}
+
+@media screen and (min-height: 728px) {
+	.leftCol div .credits {
+		display: block !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
